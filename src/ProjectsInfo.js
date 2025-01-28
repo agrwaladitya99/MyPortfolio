@@ -1,46 +1,48 @@
-import swiggySnap from "../src/assets/images/swiggySnap.png";
-import portfolioSnap from "../src/assets/images/portfolioSnap.png";
-import notesSnap from "../src/assets/images/notesSnap.png";
-import outfitlySnap from "../src/assets/images/outfitlySnap.png";
+import clipXSnap from "../src/assets/images/clipX.png";
+import dashXSnap from "../src/assets/images/dashX.png";
+import resumeXSnap from "../src/assets/images/resumeX.png";
 
 export const projects = [
   {
-    title: "BITEBOX",
-    image: swiggySnap,
+    title: "ClipX URL Shortener",
+    image: clipXSnap,
     desc: [
-      " Bitebox is a user-friendly web application that enables users to effortlessly discover nearby restaurants and explore their menus.",
-      " It is using Swiggy’s public API to fetch real restaurants data.",
-      " Leveraged Geolocation API and Geocoding API for getting user’s location coordinates and address.",
-      " Effectively implemented a search feature for filtering out restaurants, utilizing the debouncing technique to enhance user experience and optimize performance.",
-      " Implemented code splitting and lazy loading to improve applications’s initial load time.",
+      " Developed a user-friendly custom URL generator, allowing users to personalize shortened links.", 
+      " Eliminated tracking and login requirements, ensuring straightforward access and privacy.", 
+      " This project empowers users to share links uniquely while maintaining a focus on security and simplicity.",
+      " The intuitive interface facilitates quick link customization, making it accessible for users of all technical levels.",
+      " Incorporated features for users to generate links quickly, enhancing overall user experience.",
+      " Ensured compatibility across various devices, allowing seamless usage on both desktop and mobile platforms."
     ],
-    liveLink: "https://bitebox.netlify.app",
-    githubLink: "https://github.com/agrwaladitya99",
+    liveLink: "https://clip-links.vercel.app/",
+    githubLink: "https://github.com/agrwaladitya99/ClipLinks",
   },
 
   {
-    title: "PORTFOLIO APP",
-    image: portfolioSnap,
+    title: "DashX",
+    image: dashXSnap,
     desc: [
-      " Developed the application using the React.js framework, leveraging its benefits such as faster rendering and seamless performance.",
-      " Employed the Tailwind CSS library to achieve a consistent and visually appealing user interface design.",
-      " Utilized Formik and Yup library for efficient form handling and robust form validation",
-      " Implemented smooth and engaging animations using Framer Motion, a production-ready motion library specifically designed for React.",
-      " Integrated EmailJs into the contact form feature to enable seamless email transmission directly from the frontend.",
+      " Developed a comprehensive web application featuring multiple customizable Material UI tables, allowing users to sort, filter, and export data seamlessly.",
+      " Utilized the Nivo library to create visually appealing charts for effective data visualization.",
+      " Implemented a Google Calendar-like feature for efficient event listing and management.",
+      " This project enhances user interaction and data analysis, delivering a robust solution for managing and presenting information.",
+      " Designed the application with responsiveness in mind, ensuring optimal performance across various devices."
     ],
-    liveLink: "https://aditya-agarwal.netlify.app/",
-    githubLink: "https://github.com/agrwaladitya99/MyPortfolio",
+    liveLink: "https://dash-x-two.vercel.app/",
+    githubLink: "https://github.com/agrwaladitya99/DashX",
   },
 
   {
-    title: "KEEPNOTES",
-    image: notesSnap,
+    title: "ResumeX",
+    image: resumeXSnap,
     desc: [
-      " Built with React, CSS, and Redux for a seamless user interface.",
-      " Implemented impressive dark mode feature for enhanced visual comfort in low-light environments.",
-      " Features such as save, search, edit and delete a note.",
+      " Developed a user-friendly resume builder application using React, HTML, CSS, and JavaScript, allowing users to easily create and customize their resumes.",
+      " The application provides a variety of templates and formatting options to suit diverse user needs.",
+      " Incorporated features for real-time editing and previewing, enhancing the user experience during resume creation.",
+      " Designed with a responsive layout to ensure accessibility across various devices and screen sizes.",
+      " Focused on simplifying the resume creation process while empowering users to present their skills effectively."
     ],
-    liveLink: "https://keeep-notes.vercel.app/",
-    githubLink: "https://github.com/agrwaladitya99/",
+    liveLink: "https://resume-x-omega.vercel.app/",
+    githubLink: "https://github.com/agrwaladitya99/ResumeX",
   },
 ];
